@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "safe": "https://scaledagileframework.com/vocabulary/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "SAFePI": {
+      "@id": "safe:ProgramIncrement",
+      "@type": "schema:Event"
+    },
+    "SAFeART": {
+      "@id": "safe:AgileReleaseTrain",
+      "@type": "schema:Organization"
+    },
+    "SAFeEpic": {
+      "@id": "safe:Epic",
+      "@type": "schema:Project"
+    },
+    "SAFeFeature": {
+      "@id": "safe:Feature",
+      "@type": "schema:CreativeWork"
+    },
+    "SAFeStory": {
+      "@id": "safe:Story",
+      "@type": "schema:CreativeWork"
+    },
+    "SAFeTeam": {
+      "@id": "safe:AgileTeam",
+      "@type": "schema:Organization"
+    },
+    "SAFeObjective": {
+      "@id": "safe:PIObjective",
+      "@type": "schema:Goal"
+    },
+
+    "id": "@id",
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+    "start_date": {
+      "@id": "schema:startDate",
+      "@type": "xsd:date"
+    },
+    "end_date": {
+      "@id": "schema:endDate",
+      "@type": "xsd:date"
+    },
+    "status": {
+      "@id": "schema:status",
+      "@type": "xsd:string"
+    },
+    "art": {
+      "@id": "safe:art",
+      "@type": "@id"
+    },
+    "iterations": {
+      "@id": "safe:iterations",
+      "@container": "@list"
+    },
+    "objectives": {
+      "@id": "safe:objectives",
+      "@container": "@list"
+    },
+    "features": {
+      "@id": "safe:features",
+      "@container": "@list"
+    },
+    "business_value": {
+      "@id": "schema:value",
+      "@type": "xsd:integer"
+    },
+    "committed": {
+      "@id": "safe:committed",
+      "@type": "xsd:boolean"
+    },
+    "team": {
+      "@id": "safe:team",
+      "@type": "@id"
+    },
+    "title": {
+      "@id": "schema:headline",
+      "@type": "xsd:string"
+    }
+  }
+}

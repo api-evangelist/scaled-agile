@@ -1,0 +1,149 @@
+name: Scaled Agile
+description: >-
+  Vocabulary for the Scaled Agile Framework (SAFe) and enterprise agile transformation
+  at scale, covering methodologies, ceremonies, roles, and tools in the SAFe ecosystem.
+created: '2026-05-02'
+modified: '2026-05-02'
+terms:
+  - term: SAFe
+    definition: >-
+      Scaled Agile Framework - the world's leading framework for applying Lean-Agile
+      principles at enterprise scale. Provides structured guidance for aligning development
+      teams, programs, and portfolios around common missions and objectives.
+    tags:
+      - Agile
+      - Framework
+
+  - term: ART
+    definition: >-
+      Agile Release Train - the primary value delivery mechanism in SAFe. A long-lived
+      team of 5-12 Agile teams (50-125 people) that plans, commits, develops, and deploys
+      together. ARTs use PI Planning to align on program-level objectives and dependencies.
+    tags:
+      - Teams
+      - Value Delivery
+
+  - term: PI Planning
+    definition: >-
+      Program Increment Planning - a face-to-face (or remote) event that brings all ART
+      teams together to plan the next Program Increment (typically 8-12 weeks). Produces
+      team PI objectives, program PI objectives, and an ART plan.
+    tags:
+      - Ceremony
+      - Planning
+
+  - term: Program Increment
+    definition: >-
+      A timebox of 8-12 weeks during which the ART delivers incremental value in the form
+      of working, tested software and systems. Each PI typically consists of 4 development
+      Iterations and 1 Innovation and Planning (IP) Iteration.
+    tags:
+      - Planning
+      - Timebox
+
+  - term: Epic
+    definition: >-
+      A large initiative in SAFe spanning multiple Program Increments. Portfolio Epics
+      require a Lean Business Case and Lightweight Business Case. Feature Epics are
+      broken down into Features for ART implementation.
+    tags:
+      - Portfolio
+      - Work Items
+
+  - term: Feature
+    definition: >-
+      A service or capability that delivers value to users and fulfills a stakeholder need.
+      Features are the primary unit of work planned at the ART level during PI Planning
+      and are delivered within a single Program Increment.
+    tags:
+      - Value Delivery
+      - Work Items
+
+  - term: Story
+    definition: >-
+      A short description of a small piece of desired functionality, written from the
+      perspective of the user. Stories are the primary work unit at the team level and
+      are sized to fit within a single Sprint/Iteration.
+    tags:
+      - Teams
+      - Work Items
+
+  - term: Lean-Agile Mindset
+    definition: >-
+      The combination of Lean and Agile thinking that forms the foundation of SAFe. Emphasizes
+      continuous flow, eliminating waste, Agile development practices, and building quality into
+      every step of the development process.
+    tags:
+      - Culture
+      - Foundation
+
+  - term: Business Agility
+    definition: >-
+      The ability of an entire organization—not just IT—to respond quickly and proactively
+      to market opportunities and changes. SAFe 6.0 defines Business Agility as the ultimate
+      goal of enterprise-scale agile transformation.
+    tags:
+      - Strategy
+      - Transformation
+
+  - term: Value Stream
+    definition: >-
+      The sequence of activities an organization uses to implement Solutions that provide
+      value to the Customer. SAFe distinguishes between Development Value Streams and
+      Operational Value Streams.
+    tags:
+      - Portfolio
+      - Value Delivery
+
+  - term: SAFe Studio
+    definition: >-
+      Scaled Agile's online learning and collaboration platform providing SAFe courses,
+      certifications, agile planning tools, and community access for SAFe practitioners
+      and enterprise transformation teams.
+    tags:
+      - Platform
+      - Training
+
+  - term: RTE
+    definition: >-
+      Release Train Engineer - a servant leader and coach who facilitates ART events and
+      processes, assists teams in delivering value, and removes impediments. The RTE is the
+      chief Scrum Master for the ART.
+    tags:
+      - Roles
+      - Teams
+
+  - term: LACE
+    definition: >-
+      Lean-Agile Center of Excellence - a small group of change agents who champion the
+      transformation, help implement SAFe, and build Lean-Agile capability across the
+      enterprise.
+    tags:
+      - Transformation
+      - Organization
+
+  - term: DevSecOps
+    definition: >-
+      A SAFe technical practice that integrates security into the DevOps pipeline and
+      CI/CD process. Ensures security is built in throughout development rather than added
+      at deployment time.
+    tags:
+      - DevOps
+      - Security
+
+  - term: Jira Align
+    definition: >-
+      Atlassian's enterprise agile planning tool designed specifically for SAFe implementations.
+      Connects team-level Jira work to program and portfolio planning in SAFe constructs.
+    tags:
+      - Tools
+      - Integration
+
+  - term: OKR
+    definition: >-
+      Objectives and Key Results - a goal-setting framework used in conjunction with SAFe
+      to align Strategic Themes and Portfolio Epics with measurable outcomes at all
+      organizational levels.
+    tags:
+      - Strategy
+      - Measurement

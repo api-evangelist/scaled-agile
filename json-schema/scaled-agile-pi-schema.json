@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/scaled-agile/main/json-schema/scaled-agile-pi-schema.json",
+  "title": "SAFe Program Increment",
+  "description": "A SAFe Program Increment (PI) representing a fixed timebox of 8-12 weeks for an Agile Release Train",
+  "type": "object",
+  "required": ["id", "name", "start_date", "end_date", "art"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique PI identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "PI name (e.g., PI 2026.2)",
+      "examples": ["PI 2026.1", "PI 2026.2", "PI Q2 FY26"]
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "PI start date"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "PI end date"
+    },
+    "art": {
+      "type": "object",
+      "description": "Agile Release Train this PI belongs to",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["planning", "active", "completed"],
+      "description": "Current PI status"
+    },
+    "iterations": {
+      "type": "array",
+      "description": "Sprints/Iterations within this PI",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "number": {
+            "type": "integer",
+            "description": "Iteration number within PI (1-5, where 5 is typically IP)"
+          },
+          "name": {
+            "type": "string"
+          },
+          "start_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "end_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["development", "innovation_planning"],
+            "description": "Iteration type"
+          }
+        }
+      }
+    },
+    "objectives": {
+      "type": "array",
+      "description": "PI objectives committed by teams",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "business_value": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10,
+            "description": "Business value rating (1-10)"
+          },
+          "committed": {
+            "type": "boolean"
+          },
+          "team": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "description": "Features planned for this PI",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["planned", "in_progress", "done", "accepted"]
+          }
+        }
+      }
+    }
+  }
+}

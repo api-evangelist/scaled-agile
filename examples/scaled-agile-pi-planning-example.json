@@ -1,0 +1,105 @@
+{
+  "description": "Example of a SAFe Program Increment (PI) with planning artifacts",
+  "program_increment": {
+    "id": "pi-2026-2",
+    "name": "PI 2026.2",
+    "start_date": "2026-04-01",
+    "end_date": "2026-06-25",
+    "status": "active",
+    "art": {
+      "id": "art-platform",
+      "name": "Platform ART"
+    },
+    "iterations": [
+      {
+        "id": "iter-1",
+        "number": 1,
+        "name": "Iteration 1",
+        "start_date": "2026-04-01",
+        "end_date": "2026-04-14",
+        "type": "development"
+      },
+      {
+        "id": "iter-2",
+        "number": 2,
+        "name": "Iteration 2",
+        "start_date": "2026-04-15",
+        "end_date": "2026-04-28",
+        "type": "development"
+      },
+      {
+        "id": "iter-3",
+        "number": 3,
+        "name": "Iteration 3",
+        "start_date": "2026-04-29",
+        "end_date": "2026-05-12",
+        "type": "development"
+      },
+      {
+        "id": "iter-4",
+        "number": 4,
+        "name": "Iteration 4",
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-26",
+        "type": "development"
+      },
+      {
+        "id": "iter-ip",
+        "number": 5,
+        "name": "Innovation and Planning",
+        "start_date": "2026-05-27",
+        "end_date": "2026-06-25",
+        "type": "innovation_planning"
+      }
+    ],
+    "objectives": [
+      {
+        "id": "obj-001",
+        "title": "Release API gateway v2.0 with OAuth 2.1 support",
+        "business_value": 9,
+        "committed": true,
+        "team": {
+          "id": "team-api",
+          "name": "API Platform Team"
+        }
+      },
+      {
+        "id": "obj-002",
+        "title": "Complete data pipeline migration to event-driven architecture",
+        "business_value": 8,
+        "committed": true,
+        "team": {
+          "id": "team-data",
+          "name": "Data Infrastructure Team"
+        }
+      },
+      {
+        "id": "obj-003",
+        "title": "Deploy multi-region failover capability",
+        "business_value": 7,
+        "committed": false,
+        "team": {
+          "id": "team-infra",
+          "name": "Infrastructure Team"
+        }
+      }
+    ],
+    "features": [
+      {
+        "id": "feat-001",
+        "title": "API Gateway OAuth 2.1 Authentication",
+        "status": "in_progress"
+      },
+      {
+        "id": "feat-002",
+        "title": "Event-Driven Pipeline Refactor",
+        "status": "planned"
+      },
+      {
+        "id": "feat-003",
+        "title": "Multi-Region Load Balancing",
+        "status": "planned"
+      }
+    ]
+  }
+}

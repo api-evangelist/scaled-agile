@@ -1,0 +1,88 @@
+{
+  "name": "SAFe Program Increment",
+  "description": "Structure of a SAFe Program Increment timebox for Agile Release Train planning and execution",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "description": "PI identifier",
+      "required": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "PI name (e.g., PI 2026.2)",
+      "required": true
+    },
+    {
+      "name": "start_date",
+      "type": "string",
+      "format": "date",
+      "required": true
+    },
+    {
+      "name": "end_date",
+      "type": "string",
+      "format": "date",
+      "required": true
+    },
+    {
+      "name": "art",
+      "type": "object",
+      "description": "Parent ART reference",
+      "required": true,
+      "fields": [
+        {"name": "id", "type": "string"},
+        {"name": "name", "type": "string"}
+      ]
+    },
+    {
+      "name": "status",
+      "type": "enum",
+      "values": ["planning", "active", "completed"]
+    },
+    {
+      "name": "iterations",
+      "type": "array",
+      "description": "4 development iterations + 1 IP iteration",
+      "itemType": {
+        "name": "Iteration",
+        "fields": [
+          {"name": "id", "type": "string"},
+          {"name": "number", "type": "integer"},
+          {"name": "name", "type": "string"},
+          {"name": "start_date", "type": "string", "format": "date"},
+          {"name": "end_date", "type": "string", "format": "date"},
+          {"name": "type", "type": "enum", "values": ["development", "innovation_planning"]}
+        ]
+      }
+    },
+    {
+      "name": "objectives",
+      "type": "array",
+      "description": "Team PI objectives",
+      "itemType": {
+        "name": "PIObjective",
+        "fields": [
+          {"name": "id", "type": "string"},
+          {"name": "title", "type": "string"},
+          {"name": "business_value", "type": "integer", "description": "1-10 rating"},
+          {"name": "committed", "type": "boolean"},
+          {
+            "name": "team",
+            "type": "object",
+            "fields": [
+              {"name": "id", "type": "string"},
+              {"name": "name", "type": "string"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "features",
+      "type": "array",
+      "description": "Features planned for this PI"
+    }
+  ]
+}
