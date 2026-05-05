@@ -1,0 +1,13 @@
+{
+  "repo": "scaled-agile",
+  "feeds": [
+    {
+      "source": "https://scaledagile.com/blog/",
+      "feed_url": "https://scaledagile.com/feed/",
+      "saved": 10,
+      "title": "Scaled Agile"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:35:35Z"
+}
