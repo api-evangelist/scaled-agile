@@ -3,11 +3,11 @@
   "feeds": [
     {
       "source": "https://scaledagile.com/blog/",
-      "feed_url": "https://scaledagile.com/feed/",
-      "saved": 10,
-      "title": "Scaled Agile"
+      "feed_url": "https://scaledagile.com/blog/feed/",
+      "title": "Comments on: Blog Posts",
+      "saved": 0
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:35:35Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
