@@ -46,6 +46,8 @@ apis:
       - type: Portal
         url: https://www.scaledagile.com/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/scaled-agile-inc-
   - type: Website
     url: https://scaledagile.com/
   - type: Documentation
