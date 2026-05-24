@@ -69,6 +69,8 @@ common:
   - type: JSONLDContext
     url: >-
       https://raw.githubusercontent.com/api-evangelist/scaled-agile/refs/heads/main/json-ld/scaled-agile-context.jsonld
+  - type: LLMsTxt
+    url: https://scaledagile.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
