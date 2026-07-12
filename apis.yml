@@ -46,6 +46,8 @@ apis:
       - type: Portal
         url: https://www.scaledagile.com/
 common:
+  - type: DomainSecurity
+    url: security/scaled-agile-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/scaled-agile-inc-
   - type: Website
