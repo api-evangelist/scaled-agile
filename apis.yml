@@ -58,6 +58,13 @@ apis:
     humanURL: https://scaledagile.com/safe-studio/
     tags:
       - Agile
+      - Certification
+      - Learning Management
+      - PI Planning
+      - SAFe
+      - Training
+    tags_raw:
+      - Agile
       - Certifications
       - Learning Management
       - PI Planning
