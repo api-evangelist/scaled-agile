@@ -1,0 +1,26 @@
+# Front Door AI Index — scaled-agile — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: scaled-agile
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: scaledagile.com
+  final_host: scaledagile.com
+  ownership: own
+  owner: scaled-agile
+  shares_host_with:
+  - safe-agile
+  inherited_from: null
+  verdict: scored
+  score: 11
+  host_score: 11
+  density: 20.04
+  words: 549
+  tiers:
+    agentic: 0
+    core: 11
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 11
