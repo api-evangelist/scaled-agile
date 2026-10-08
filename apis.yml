@@ -76,6 +76,12 @@ apis:
       - type: Portal
         url: https://www.scaledagile.com/
 common:
+  - type: Plans
+    url: plans/scaled-agile-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/scaled-agile-rate-limits.yml
+  - type: FinOps
+    url: finops/scaled-agile-finops.yml
   - type: DomainSecurity
     url: security/scaled-agile-domain-security.yml
   - type: LinkedIn
