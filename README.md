@@ -66,68 +66,137 @@
 
 Scaled Agile, Inc. is the provider of SAFe® (Scaled Agile Framework), the world's leading framework for business agility at scale. SAFe helps organizations plan better, work smarter, deliver faster, and scale sustainably by aligning people, processes, and technology. The framework provides guidance for enterprise agile transformation across software development, hardware, and business operations, with over 2 million trained professionals in more than 20,000 organizations worldwide. SAFe 6.0 incorporates AI-Empowered Agility as a core element of the framework.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/scaled-agile/refs/heads/main/apis.yml)
+**Areas:** Agile · Business Agility · DevOps · Enterprise · Lean · Project Management · SAFe · Scaled Agile
 
-## Scope
+## Scaled Agile on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Scaled Agile is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scaled-agile/](https://apis.io/providers/scaled-agile/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-Agile, Business Agility, DevOps, Enterprise, Lean, Project Management, SAFe, Scaled Agile
+- [SAFe Studio API](https://apis.io/apis/scaled-agile/safe-studio-api/) — SAFe Studio is the online platform for learning and implementing SAFe. It provides access to training courses, agile planning tools, assessments, and a…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-05-02
-- **Modified:** 2026-05-02
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (1)
 
-### SAFe Studio API
-SAFe Studio is the online platform for learning and implementing SAFe. It provides access to training courses, agile planning tools, assessments, and a global community of over 400,000 SAFe practitioners.
+The data models the API reads and writes.
 
-**Human URL:** [https://scaledagile.com/safe-studio/](https://scaledagile.com/safe-studio/)
+- [SAFe Program Increment](https://apis.io/schemas/scaled-agile/scaled-agile-pi/)
 
-#### Tags
-Agile, Certifications, Learning Management, PI Planning, SAFe, Training
+#### JSON Structure (1)
 
-#### Properties
-- [Documentation](https://scaledagile.com/safe-studio/)
-- [Portal](https://www.scaledagile.com/)
+Data models expressed in JSON Structure.
 
-## Schemas
+- [Scaled Agile Pi Structure](https://apis.io/json-structure/scaled-agile/scaled-agile-pi-structure/)
 
-- [json-schema/scaled-agile-pi-schema.json](json-schema/scaled-agile-pi-schema.json) — SAFe Program Increment schema
+#### JSON-LD (1)
 
-## JSON Structures
+Linked-data contexts for the provider's vocabulary.
 
-- [json-structure/scaled-agile-pi-structure.json](json-structure/scaled-agile-pi-structure.json) — Program Increment structure documentation
+- [Scaled Agile Context](https://apis.io/jsonld/scaled-agile/scaled-agile-context/)
 
-## JSON-LD
+#### Vocabulary (1)
 
-- [json-ld/scaled-agile-context.jsonld](json-ld/scaled-agile-context.jsonld) — JSON-LD context mapping SAFe vocabulary to schema.org
+The provider's domain terms, defined.
 
-## Examples
+- [Scaled Agile Vocabulary](https://apis.io/vocabularies/scaled-agile/scaled-agile-vocabulary/)
 
-- [examples/scaled-agile-pi-planning-example.json](examples/scaled-agile-pi-planning-example.json) — PI Planning example with objectives, iterations, and features
+#### Examples (1)
 
-## Vocabulary
+Example requests and responses.
 
-- [vocabulary/scaled-agile-vocabulary.yml](vocabulary/scaled-agile-vocabulary.yml) — SAFe terminology and domain vocabulary (16 terms covering ART, PI Planning, Epics, Features, Stories, and more)
+- [Scaled Agile Pi Planning Example](https://apis.io/examples/scaled-agile/scaled-agile-pi-planning-example/)
 
-## Common Properties
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Scaled Agile — jsonschema rules](https://apis.io/rules/scaled-agile/scaled-agile-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Scaled Agile Domain Security](https://apis.io/security/scaled-agile/scaled-agile-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Scaled Agile Plans Pricing](https://apis.io/plans/scaled-agile/scaled-agile-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Scaled Agile Rate Limits](https://apis.io/rate-limits/scaled-agile/scaled-agile-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Scaled Agile Finops](https://apis.io/finops/scaled-agile/scaled-agile-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://scaledagile.com/)
 - [Documentation](https://framework.scaledagile.com/)
-- [Knowledge Base](https://framework.scaledagile.com/safe-knowledge-base)
-- [Training](https://scaledagile.com/training/)
-- [Partners](https://scaledagile.com/partners/)
 - [Blog](https://scaledagile.com/blog/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 18.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scaled-agile/](https://apis.io/providers/scaled-agile/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Scaled Agile: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scaled-agile/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
